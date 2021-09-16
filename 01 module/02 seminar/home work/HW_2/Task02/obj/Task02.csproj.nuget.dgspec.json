@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task01\\Task01.csproj": {}
+    "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task02\\Task02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task01\\Task01.csproj": {
+    "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task02\\Task02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task01\\Task01.csproj",
-        "projectName": "Task01",
-        "projectPath": "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task01\\Task01.csproj",
+        "projectUniqueName": "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task02\\Task02.csproj",
+        "projectName": "Task02",
+        "projectPath": "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task02\\Task02.csproj",
         "packagesPath": "C:\\Users\\kalab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task01\\obj\\",
+        "outputPath": "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\02 seminar\\home work\\HW_2\\Task02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kalab\\AppData\\Roaming\\NuGet\\NuGet.Config",
