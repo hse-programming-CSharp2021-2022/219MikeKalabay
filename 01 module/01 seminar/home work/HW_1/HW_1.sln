@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task01", "Task01\Task01.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task02", "Task02\Task02.csproj", "{0F16109C-8FF1-4AAF-9002-67AE4C724B8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIIDecoder", "ASCIIDecoder\ASCIIDecoder.csproj", "{36EF9D7E-CA58-44F7-89AA-953A4AB4F20A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0F16109C-8FF1-4AAF-9002-67AE4C724B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F16109C-8FF1-4AAF-9002-67AE4C724B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F16109C-8FF1-4AAF-9002-67AE4C724B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EF9D7E-CA58-44F7-89AA-953A4AB4F20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EF9D7E-CA58-44F7-89AA-953A4AB4F20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EF9D7E-CA58-44F7-89AA-953A4AB4F20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EF9D7E-CA58-44F7-89AA-953A4AB4F20A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
