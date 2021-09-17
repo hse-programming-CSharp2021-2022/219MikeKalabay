@@ -20,7 +20,7 @@ namespace Task01
             double x;
             do
             {
-                //Console.WriteLine("Please, enter value");
+                Console.WriteLine("Please, enter value");
                 if (double.TryParse(Console.ReadLine(), out x))
                 {
                     Console.WriteLine(Horner_method(x));

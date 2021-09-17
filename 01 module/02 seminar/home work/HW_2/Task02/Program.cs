@@ -38,7 +38,7 @@ namespace Task01
             int x;
             do
             {
-                //Console.WriteLine("Please, enter value");
+                Console.WriteLine("Please, enter value");
                 if (int.TryParse(Console.ReadLine(), out x) && Check_number(x))
                 {
                     Console.WriteLine(Count_sort(x));
