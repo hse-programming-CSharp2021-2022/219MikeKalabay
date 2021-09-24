@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj": {}
+    "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj": {
+    "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj",
+        "projectUniqueName": "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj",
         "projectName": "ASCIIDecoder",
-        "projectPath": "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj",
+        "projectPath": "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\ASCIIDecoder.csproj",
         "packagesPath": "C:\\Users\\kalab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kalab\\Source\\Repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\obj\\",
+        "outputPath": "C:\\Users\\kalab\\source\\repos\\219MikeKalabay\\01 module\\01 seminar\\home work\\HW_1\\ASCIIDecoder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kalab\\AppData\\Roaming\\NuGet\\NuGet.Config",
