@@ -1,5 +1,5 @@
 ﻿using System;
-// Простите, что суток просрочился :(
+// Простите, что чуток просрочился :(
 namespace Task01
 {
     class VideoFile
