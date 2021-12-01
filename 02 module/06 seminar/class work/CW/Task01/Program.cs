@@ -2,19 +2,23 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         try
         {
-            var array = new int[] { 1, 2 };
-            Console.Write(array[5]);
-        } catch (ApplicationException e) {
-            Console.Write(1);
-        } catch (SystemException e) {
-            Console.Write(2);
-        } catch (Exception e) {
-Console.Write(3);
-        Console.ReadLine();
+            // какой-то код
+        }
+        catch (ApplicationException e)
+        {
+            Console.Write(e.Message);
+        }
+        catch (SystemException e)
+        {
+            Console.Write(e.Message);
+        }
+        catch
+        {
+            Console.Write("что-то другое");
         }
     }
 }

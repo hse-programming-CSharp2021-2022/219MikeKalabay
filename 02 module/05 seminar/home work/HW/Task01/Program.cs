@@ -1,6 +1,5 @@
 ﻿using System;
-// !!!!!!!!!!!!!!!!!!!
-// В будущем здесь будет не только ctrl+c ctrl+v из справочника C#
+
 namespace Task01
 {
     class Program
@@ -62,16 +61,73 @@ namespace Task01
             }
         }
 
+        static int Comp(Shape f1, Shape f2)
+        {
+            int a = 0;
+            if (f1 is Circle)
+                a = 1;
+            else if (f1 is Cylinder)
+                a = 3;
+            else
+                a = 2;
+            int b = 0;
+            if (f2 is Circle)
+                b = 1;
+            else if (f2 is Cylinder)
+                b = 3;
+            else
+                b = 2;
+            if (a > b) {
+                return 1;
+            }
+            return -1;
+        }
+
         static void Main()
         {
-            double r = 3.0, h = 5.0;
-            Shape c = new Circle(r);
-            Shape s = new Sphere(r);
-            Shape l = new Cylinder(r, h);
-            // Display results.
-            Console.WriteLine("Area of Circle   = {0:F2}", c.Area());
-            Console.WriteLine("Area of Sphere   = {0:F2}", s.Area());
-            Console.WriteLine("Area of Cylinder = {0:F2}", l.Area());
+            // Пункт 1.
+            Random rand = new Random();
+            int[] N = { rand.Next(3, 6), rand.Next(3, 6) , rand.Next(3, 6) };
+            Shape[] a = new Shape[N[0] + N[1] + N[2]];
+            for (int i = 0; i < N[0]; ++i)
+            {
+                a[i] = new Circle(rand.Next(1, 12));
+            }
+            for (int i = 0; i < N[1]; ++i)
+            {
+                a[i + N[0]] = new Cylinder(rand.Next(1, 12), rand.Next(1, 12));
+            }
+            for (int i = 0; i < N[2]; ++i)
+            {
+                a[i + N[0] + N[1]] = new Sphere(rand.Next(1, 12));
+            }
+            // Пункт 2.
+            for (int i = 0; i < a.Length; ++i)
+            {
+                Console.WriteLine(a[i].Area());
+            }
+            // Пункт 3.
+            for (int i = 0; i < a.Length; ++i)
+            {
+                if (a[i] is Circle)
+                    Console.WriteLine("Circle");
+                else if (a[i] is Cylinder)
+                    Console.WriteLine("Cylinder");
+                else
+                    Console.WriteLine("Sphere");
+                Console.WriteLine(a[i].Area());
+            }
+            // Пункт 4.
+            Array.Sort(a, Comp);
+            for (int i = 0; i < a.Length; ++i)
+            {
+                if (a[i] is Circle)
+                    Console.WriteLine("Circle");
+                else if (a[i] is Cylinder)
+                    Console.WriteLine("Cylinder");
+                else
+                    Console.WriteLine("Sphere");
+            }
         }
     }
 }
