@@ -124,7 +124,7 @@ namespace Task01
             Random rand = new Random();
             string res = "";
             res += (char)('A' + rand.Next(0, 'Z' - 'A' + 1));
-            for (int i = 0; i < rand.Next(0, 4); ++i)
+            for (int i = 0; i < 2 + rand.Next(0, 6); ++i)
             {
                 if (rand.Next(0, 2) == 0)
                 {
@@ -169,18 +169,18 @@ namespace Task01
                 {
                     if (a[i] is Elf)
                     {
-                        Console.WriteLine("Elf:");
+                        Console.WriteLine("Elf: " + a[i].Name);
                         Console.WriteLine(a[i].Run());
                     }
                     else if (a[i] is Dwarf)
                     {
-                        Console.WriteLine("Dwarf:");
+                        Console.WriteLine("Dwarf: " + a[i].Name);
                         Console.WriteLine(a[i].Run());
                         ((Dwarf)a[i]).MakeNewStaff();
                     }
                     else if (a[i] is Creature)
                     {
-                        Console.WriteLine("Creature:");
+                        Console.WriteLine("Creature: " + a[i].Name);
                         Console.WriteLine(a[i].Run());
                     }
                 }
