@@ -17,5 +17,10 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "ВШЭ";
+            label2.Text = "219";
+        }
     }
 }
