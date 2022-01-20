@@ -1,34 +1,42 @@
 ﻿using System;
-delegate int MyDel(int a, int b);
 
 namespace Task01
 {
-    static class TestClass
-    {
-        public static int TestMethod(int a, int b)
-        {
-            return Math.Max(a, b);
-        }
-    }
-    class TestClassNotStatic
-    {
-        public int TestMethod(int a, int b)
-        {
-            return b + a;
-        }
-    }
+    delegate int[] Row(int n);
+    delegate void Print(int[] a);
     class Program
     {
+        static int[] GetNums(int n)
+        {
+            int[] res = new int[n.ToString().Length];
+            int i = 0;
+            while (n != 0)
+            {
+                res[i] = n % 10;
+                n /= 10;
+                i += 1;
+            }
+            return res;
+        }
+        static void PrintNum(int[] a)
+        {
+            foreach (int elem in a)
+            {
+                Console.WriteLine(elem);
+            }
+        }
         static void Main(string[] args)
         {
-            TestClassNotStatic testClassNotStatic = new TestClassNotStatic();
-            MyDel myDel = new MyDel(TestClass.TestMethod);
-            MyDel myDelNotStatic = new MyDel(testClassNotStatic.TestMethod);
-            Console.WriteLine(myDel(179, 57));
-            Console.WriteLine(myDelNotStatic(179, 57));
-            MyDel myDelAll = new MyDel(TestClass.TestMethod);
-            myDelAll += testClassNotStatic.TestMethod;
-            Console.WriteLine(myDelAll(57, 179));
+            int u = 54321;
+            int[] a = { 12, 23, 34, 45, 56, 67, 78, 89, 91, 12 };
+            Row row = new Row(GetNums);
+            Print print = new Print(PrintNum);
+            print(a);
+            print(row(u));
+            Console.WriteLine(row.Method);
+            Console.WriteLine(row.Target);
+            Console.WriteLine(print.Method);
+            Console.WriteLine(print.Target);
         }
     }
 }
