@@ -13,3 +13,4 @@ C:\Users\kalab\source\repos\219MikeKalabay\03 module\02 seminar\class work\CW\Ta
 C:\Users\kalab\source\repos\219MikeKalabay\03 module\02 seminar\class work\CW\Task02\obj\Debug\net5.0\ref\Task02.dll
 C:\Users\kalab\source\repos\219MikeKalabay\03 module\02 seminar\class work\CW\Task02\obj\Debug\net5.0\Task02.pdb
 C:\Users\kalab\source\repos\219MikeKalabay\03 module\02 seminar\class work\CW\Task02\obj\Debug\net5.0\Task02.genruntimeconfig.cache
+C:\Users\kalab\source\repos\219MikeKalabay\03 module\02 seminar\class work\CW\Task02\obj\Debug\net5.0\Task02.csproj.AssemblyReference.cache
