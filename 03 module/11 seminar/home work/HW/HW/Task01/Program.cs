@@ -17,6 +17,7 @@ namespace Task01
                     wr.Write(rand.Next(1, 100));
                 }
             }
+
             using (BinaryReader rd = new BinaryReader(File.Open("Numbers.txt", FileMode.OpenOrCreate)))
             {
                 for (var i = 0; i < 10; i++)
@@ -37,6 +38,7 @@ namespace Task01
                 }
                 a[ind] = n;
             }
+
             using (var writer = new BinaryWriter(File.Open("Numbers.txt", FileMode.OpenOrCreate)))
             {
                 for (int i = 0; i < a.Count; i++)
